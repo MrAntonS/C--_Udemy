@@ -10,7 +10,7 @@
 				"-std=c++17",
 				"${fileDirname}/*.cpp",
 				"-o",
-				"${fileDirname}/build/${fileBasenameNoExtension}"
+				"${fileDirname}/../build/${fileBasenameNoExtension}"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
